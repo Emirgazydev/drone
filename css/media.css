@@ -1,0 +1,186 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width: 1200px) {
+    .header-nav{
+        display: none;
+    }
+    .block{
+        flex-wrap: wrap;
+    }
+    .music{
+        flex-direction: column;
+    }
+}
+@media (max-width: 1024px) {
+    .header-nav {
+        display: none;
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .block {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .music {
+        flex-wrap: wrap;
+    }
+    .stat {
+        flex-wrap: wrap;
+        padding-top: 30px;
+        justify-content: center;
+    }
+    .stat-card h1 {
+        padding: 0 25px;
+    }
+    .footer img {
+        margin-right: 20px;
+    }
+    .shop-title{
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 992px) {
+    .hero-img img {
+        width: 90%;
+    }
+    .hero-drone img {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .hero-bg {
+        left: 29px;
+    }
+    .blocks {
+        flex-direction: column;
+    }
+    .blocks h1 {
+        padding: 20px;
+    }
+    .header-price {
+        flex-direction: column;
+    }
+    .figur {
+        bottom: 223px;
+        right: 218px;
+    }
+    .blocks {
+        width: 90%;
+    }
+    .hero-drone {
+        bottom: 101px;
+        left: -53px;
+    }
+    .footer-nav  {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 576px) {
+    .hero-drone {
+        bottom: 49px;
+        left: -127px;
+    }
+    .hero-drone img {
+        width: 60%;
+    }
+    .hero-img {
+        width: 90%;
+    }
+
+    .hero-img-title {
+        bottom: 70px;
+        right: 26px;
+    }
+
+    .hero-img-title p {
+        font-size: 10px;
+        padding: 10px 0;
+    }
+
+    .icon1 {
+        bottom: 35px;
+        right: 39px;
+    }
+
+    .figure {
+        bottom: 351px;
+        right: 156px;
+    }
+
+    .figures {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        bottom: 47px;
+        left: 40px;
+    }
+
+    .hero-img {
+        height: 320px;
+    }
+
+    .block {
+        justify-content: center;
+    }
+
+    .music-left img {
+        width: 90%;
+    }
+
+    .music-right img {
+        width: 90%;
+    }
+
+    .music-left-title {
+        bottom: 121px;
+        left: 81px;
+    }
+
+    .figure1 {
+        top: 135px;
+    }
+
+    .figure2 {
+        top: 46px;
+        left: 368px;
+    }
+
+    .music-right-title {
+        bottom: 101px;
+        left: 56px;
+    }
+
+    .icon1 {
+        top: 146px;
+        left: 62px;
+    }
+
+    .music-left-title h1 {
+        font-size: 21px;
+    }
+
+    .music-right-title h1 {
+        font-size: 21px;
+    }
+
+    .catalog {
+        justify-content: center;
+    }
+
+    .footer a {
+        display: none;
+    }
+    .city{
+        align-items: center;
+        justify-content: center;
+    }
+}
